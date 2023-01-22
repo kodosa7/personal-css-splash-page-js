@@ -35,7 +35,7 @@ h1 {
     position: absolute;
     font-size: 150px;
     left: 250px;
-    top: 40px;
+    top: 20px;
     animation-name: firstNameAnimation;
     animation-duration: 2s;
 }
@@ -55,7 +55,7 @@ h2 {
     position: absolute;
     font-size: 170px;
     left: 250px;
-    top: 240px;
+    top: 210px;
     animation-name: lastNameAnimation;
     animation-duration: 2s;
 }
@@ -89,7 +89,7 @@ h3 {
     position: absolute;
     font-size: 80px;
     left: 1230px;
-    top: 328px;
+    top: 288px;
     animation: atAnimation 2s 1s 1 linear;
     animation-fill-mode: forwards;
 }
@@ -106,13 +106,13 @@ h3 {
 
 .vf-logo {
     position: absolute;
-    top: 490px;
+    top: 430px;
     left: 240px;
 }
 
 .vf-logo img {
     position: absolute;
-    width: 1100px;
+    width: 900px;
     animation: vodafoneZoomOut .5s 0s 1 linear;
     animation-fill-mode: forwards;
 }
@@ -130,13 +130,13 @@ h3 {
 }
 
 main {
-    height: 820px;
+    height: 780px;
 }
 
 .buttons {
     position: absolute;
-    top: 125px;
-    left: 530px;
+    top: 126px;
+    left: 520px;
     font-family: InterFaceLt;
     font-size: 2.5em;
     animation: buttonsAnimation .5s 0s 1 linear;
