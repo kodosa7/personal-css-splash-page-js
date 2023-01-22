@@ -33,9 +33,9 @@ body {
 
 h1 {
     position: absolute;
-    font-size: 170px;
-    left: 300px;
-    top: 50px;
+    font-size: 150px;
+    left: 250px;
+    top: 40px;
     animation-name: firstNameAnimation;
     animation-duration: 2s;
 }
@@ -53,9 +53,9 @@ h1 {
 
 h2 {
     position: absolute;
-    font-size: 190px;
-    left: 300px;
-    top: 250px;
+    font-size: 170px;
+    left: 250px;
+    top: 240px;
     animation-name: lastNameAnimation;
     animation-duration: 2s;
 }
@@ -87,9 +87,9 @@ h2 {
 h3 {
     color: #262626;
     position: absolute;
-    font-size: 100px;
-    left: 1280px;
-    top: 338px;
+    font-size: 80px;
+    left: 1230px;
+    top: 328px;
     animation: atAnimation 2s 1s 1 linear;
     animation-fill-mode: forwards;
 }
@@ -106,8 +106,8 @@ h3 {
 
 .vf-logo {
     position: absolute;
-    top: 500px;
-    left: 290px;
+    top: 490px;
+    left: 240px;
 }
 
 .vf-logo img {
