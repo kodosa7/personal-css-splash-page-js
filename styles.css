@@ -62,7 +62,7 @@ h2 {
 
 @keyframes lastNameAnimation {
     from {
-        transform: translateY(400px);
+        transform: translateY(350px);
         opacity: 0;
     }
 
