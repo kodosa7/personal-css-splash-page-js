@@ -1,0 +1,186 @@
+@font-face {
+    font-family: InterFaceBd;
+    src: url('./assets/InterFace_Trial_Bd.ttf');
+}
+
+@font-face {
+    font-family: InterFaceLt;
+    src: url('./assets/InterFace_Trial_Lt.ttf');
+}
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: InterfaceBd;
+    background: #262626;
+    color: #fff;
+    animation: flashColors .25s 2.5s 1 linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes flashColors{
+    from {
+        background: #262626;
+    }
+
+    to {
+        background: #f4f4f4;
+        color: #000;
+    }
+}
+
+h1 {
+    position: absolute;
+    font-size: 170px;
+    left: 300px;
+    top: 50px;
+    animation-name: firstNameAnimation;
+    animation-duration: 2s;
+}
+
+@keyframes firstNameAnimation {
+    from {
+      transform: translateX(1220px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+}
+
+h2 {
+    position: absolute;
+    font-size: 190px;
+    left: 300px;
+    top: 250px;
+    animation-name: lastNameAnimation;
+    animation-duration: 2s;
+}
+
+@keyframes lastNameAnimation {
+    from {
+        transform: translateY(400px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.lastname-before-change {
+    color: #fff;
+}
+
+.lastname-after-change {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('./assets/sun.png');
+    background-size: cover;
+}
+
+h3 {
+    color: #262626;
+    position: absolute;
+    font-size: 100px;
+    left: 1280px;
+    top: 338px;
+    animation: atAnimation 2s 1s 1 linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes atAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: .75;
+    }
+}
+
+.vf-logo {
+    position: absolute;
+    top: 500px;
+    left: 290px;
+}
+
+.vf-logo img {
+    position: absolute;
+    width: 1100px;
+    animation: vodafoneZoomOut .5s 0s 1 linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes vodafoneZoomOut {
+    from {
+        transform: scale(10, 10);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+main {
+    height: 820px;
+}
+
+.buttons {
+    position: absolute;
+    top: 157px;
+    left: 610px;
+    font-family: InterFaceLt;
+    font-size: 2.5em;
+    animation: buttonsAnimation .5s 0s 1 linear;
+    animation-fill-mode: forwards;
+}
+
+.portfolio {
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    padding: .175em 1em;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: .2s;
+    border: 2px solid #c6c6c6;
+}
+
+.portfolio:hover {
+    border: 2px solid #434241;
+}
+
+.linkedin {
+    text-decoration: none;
+    background: #de0000;
+    color: #fff;
+    padding: .175em 1em;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: .2s;
+    border: 2px solid #de0000;
+}
+
+.linkedin:hover {
+    background: #930000;
+    border: 2px solid #930000;
+    
+}
+
+@keyframes buttonsAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
