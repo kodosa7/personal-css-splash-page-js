@@ -42,7 +42,7 @@ h1 {
 
 @keyframes firstNameAnimation {
     from {
-      transform: translateX(1120px);
+      transform: translateX(1080px);
       opacity: 0;
     }
     to {
