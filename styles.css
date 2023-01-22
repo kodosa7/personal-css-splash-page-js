@@ -138,7 +138,7 @@ main {
     top: 107px;
     left: 512px;
     font-family: InterFaceLt;
-    font-size: 2.5em;
+    font-size: 2em;
     animation: buttonsAnimation .5s 0s 1 linear;
     animation-fill-mode: forwards;
 }
