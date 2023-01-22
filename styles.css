@@ -135,10 +135,10 @@ main {
 
 .buttons {
     position: absolute;
-    top: 107px;
+    top: 123px;
     left: 512px;
     font-family: InterFaceLt;
-    font-size: 2em;
+    font-size: 1.8em;
     animation: buttonsAnimation .5s 0s 1 linear;
     animation-fill-mode: forwards;
 }
