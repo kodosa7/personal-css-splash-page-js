@@ -88,7 +88,7 @@ h3 {
     color: #262626;
     position: absolute;
     font-size: 80px;
-    left: 930px;
+    left: 1030px;
     top: 298px;
     animation: atAnimation 2s 1s 1 linear;
     animation-fill-mode: forwards;
@@ -130,7 +130,7 @@ h3 {
 }
 
 main {
-    height: 780px;
+    /* height: 780px; */
 }
 
 .buttons {
