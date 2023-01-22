@@ -88,7 +88,7 @@ h3 {
     color: #262626;
     position: absolute;
     font-size: 80px;
-    left: 1130px;
+    left: 1120px;
     top: 298px;
     animation: atAnimation 2s 1s 1 linear;
     animation-fill-mode: forwards;
@@ -112,7 +112,7 @@ h3 {
 
 .vf-logo img {
     position: absolute;
-    width: 900px;
+    width: 950px;
     animation: vodafoneZoomOut .5s 0s 1 linear;
     animation-fill-mode: forwards;
 }
@@ -136,7 +136,7 @@ main {
 .buttons {
     position: absolute;
     top: 107px;
-    left: 510px;
+    left: 512px;
     font-family: InterFaceLt;
     font-size: 2.5em;
     animation: buttonsAnimation .5s 0s 1 linear;
