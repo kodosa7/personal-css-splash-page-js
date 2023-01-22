@@ -135,8 +135,8 @@ main {
 
 .buttons {
     position: absolute;
-    top: 157px;
-    left: 610px;
+    top: 137px;
+    left: 580px;
     font-family: InterFaceLt;
     font-size: 2.5em;
     animation: buttonsAnimation .5s 0s 1 linear;
